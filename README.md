@@ -1,9 +1,19 @@
-# React + Vite
+# Jay's Woodworks Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Description
 
-Currently, two official plugins are available:
+## 🚀 Features
+### Frontend
+- ✅ Straight access
+- 👌 Quick and easy navigation through pages
+- 😃 Easy responsiveness for mobile and computer devices
+  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"# Carpentry-Application" 
+### Backend
+- 
+
+## 🎯 Installation
+### Prerequisites
+- Install [Git](https://git-scm.com/)
+- Install [Node.js](https://nodejs.org/)
+- Install [Visual Studio Code] / for the Frontend
