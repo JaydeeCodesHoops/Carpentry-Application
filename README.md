@@ -11,7 +11,7 @@ This is a web application built for my personal business that i do on the side w
   
 
 ### Backend
-- None at the moment
+- 😢None at the moment
 
 ## 🎯 Installation
 ### Prerequisites
