@@ -1,0 +1,38 @@
+.homeSocialsContent{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+}
+
+.homeSocialsContent h1, .homeSocialsContent p{
+    color: #1e1e2f;
+}
+
+.socialsHeaderSection{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#61dafb;
+}
+
+.socialsHeading{
+    flex: 1;
+    font-size: 40px;
+}
+
+.socialsText{
+    flex: 1;
+    font-size: 20px;
+    margin-right: 80px;
+}
+
+.socialsBody{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}

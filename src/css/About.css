@@ -1,0 +1,119 @@
+.homeAboutContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+}
+
+.homeAboutContent h1, .homeAboutContent p{
+    color: #1e1e2f;
+}
+
+.aboutHeaderSection{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#61dafb;
+}
+
+.aboutHeading{
+    flex: 1;
+    font-size: 40px;
+}
+
+.aboutText{
+    flex: 1;
+    font-size: 20px;
+    margin-right: 80px;
+}
+
+.aboutBody{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.missionAndValues{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.mission{
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(233, 239, 239);
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.values{
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(233, 239, 239);
+    padding: 15px;
+    border-radius: 25px;
+}
+
+#value{
+    color:#61dafb;
+}
+
+.team{
+    width: 100%;
+    background-color: #1e1e2f;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.teamHeading h1{
+    color: white;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.teamHeading{
+    color: white;
+}
+
+#image{
+    width: 200px;
+    height: 200px;
+}
+
+.individualCard{
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.individualCard p{
+    color: gray;
+}

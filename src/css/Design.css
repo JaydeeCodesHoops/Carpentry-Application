@@ -1,0 +1,38 @@
+.homeDesignContent{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+}
+
+.homeDesignContent h1, .homeDesignContent p{
+    color: #1e1e2f;
+}
+
+.designHeaderSection{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#61dafb;
+}
+
+.designHeading{
+    flex: 1;
+    font-size: 40px;
+}
+
+.designText{
+    flex: 1;
+    font-size: 20px;
+    margin-right: 80px;
+}
+
+.designBody{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
