@@ -3,11 +3,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 90vw;
+    width: 100vw;
+    background-image: url("../../public/images/woodWalpaper1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.homeAboutContent h1, .homeAboutContent p{
-    color: #1e1e2f;
+.overlay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .aboutHeaderSection{
@@ -16,7 +26,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#61dafb;
+    gap: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.562);
 }
 
 .aboutHeading{
@@ -26,8 +38,8 @@
 
 .aboutText{
     flex: 1;
-    font-size: 20px;
-    margin-right: 80px;
+    font-size: 25px;
+    color: white;
 }
 
 .aboutBody{
@@ -37,8 +49,9 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 100px;
     margin-bottom: 100px;
+    font-size: 20px;
+    color: white;
 }
 
 .missionAndValues{
@@ -55,9 +68,10 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: rgb(233, 239, 239);
+    background-color: rgba(233, 239, 239, 0.644);
     padding: 15px;
     border-radius: 25px;
+    min-height: 200px;
 }
 
 .values{
@@ -66,24 +80,24 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: rgb(233, 239, 239);
+    background-color: rgba(233, 239, 239, 0.644);
     padding: 15px;
     border-radius: 25px;
+    min-height: 200px;
 }
 
 #value{
-    color:#61dafb;
+    color:rgb(167, 69, 0);
 }
 
 .team{
     width: 100%;
     background-color: #1e1e2f;
     padding: 50px;
-    margin-top: 100px;
 }
 
 .teamHeading h1{
-    color: white;
+    color:#61dafb;
 }
 
 .cards{
@@ -92,10 +106,12 @@
     align-items: center;
     justify-content: center;
     gap: 100px;
+    margin-bottom: 100px;
 }
 
 .teamHeading{
     color: white;
+    margin-bottom: 80px;
 }
 
 #image{
@@ -116,4 +132,43 @@
 
 .individualCard p{
     color: gray;
+}
+
+.missionBody h1, .valuesBody h1{
+    color: saddlebrown
+}
+
+.moreAbout{
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(233, 239, 239, 0.644);
+    padding: 15px;
+    border-radius: 25px;
+    min-height: 200px;
+}
+
+.makesUsDifferent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e1e2f;
+}
+
+.makesUsDifferent h1{
+    color: #61dafb;
+}
+
+.makesUsDifferent p{
+    color: gray;
+}
+
+.differenceItem{
+    background-color: #61dafb;
+    width: 200px;
+    height: 200px;
 }

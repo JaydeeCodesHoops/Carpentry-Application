@@ -1,11 +1,27 @@
 .homeDesignContent{
     display: flex;
     flex-direction: column;
-    width: 90vw;
+    align-items: center;
+    justify-content: center;
+    width: 100VW;
+    gap: 60px;
+    background-image: url("../../public/images/woodWalpaper3.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.homeDesignContent h1, .homeDesignContent p{
-    color: #1e1e2f;
+.overlay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.homeDesignContent h1{
+    /* color: #1e1e2f; */
 }
 
 .designHeaderSection{
@@ -14,7 +30,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#61dafb;
+    gap: 50px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.562);
 }
 
 .designHeading{
@@ -26,6 +44,11 @@
     flex: 1;
     font-size: 20px;
     margin-right: 80px;
+    font-size: 25px;
+}
+
+.designText p{
+    color: #ffffff;
 }
 
 .designBody{
@@ -35,4 +58,49 @@
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.design-item{
+    width: 80%;
+    background-color: rgba(185, 186, 187, 0.671);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 220px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.design-item.expanded{
+    background-color: none;
+}
+
+.individual-design-item{
+    display: none;
+}
+
+.individual-design-item.show{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 1000px;
+    opacity: 1;
+    margin-top: 15px;
+}
+
+#img{
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.expand-indicator{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }

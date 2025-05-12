@@ -1,7 +1,7 @@
 .homeContactContent{
     display: flex;
     flex-direction: column;
-    width: 90vw;
+    width: 100vw;
 }
 
 .homeContactContent h1, .homeContactContent p{

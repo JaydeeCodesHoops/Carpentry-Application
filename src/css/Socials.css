@@ -1,7 +1,7 @@
 .homeSocialsContent{
     display: flex;
     flex-direction: column;
-    width: 90vw;
+    width: 100vw;
 }
 
 .homeSocialsContent h1, .homeSocialsContent p{

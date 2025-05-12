@@ -1,16 +1,32 @@
-
+nav {
+  display: flex;
+  flex-direction: column;
+  padding: 15px ;
+}
   
 .sidebar h2 {
   margin-bottom: 2rem;
 }
   
 .nav-link {
-  display: block;
+  display: flex;
+  align-items: center;
   color: #ccc;
   text-decoration: none;
-  padding: 0.75rem 0;
+  padding: 12px;
   transition: 0.3s;
   margin-top: 20px;
+}
+
+.link-content {
+  display: flex;
+  align-items: center;
+}
+
+.link-text {
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s ease;
 }
   
 .nav-link:hover {
@@ -27,6 +43,8 @@
 .homeIcon, .aboutIcon, .designIcon, .socialsIcon, .contactIcon, .invoiceIcon{
   font-size: large;
   margin-right: 10px;
+  transition: opacity 0.3s ease;
+  white-space: nowrap;
 }
  
 .homeIcon:hover{
@@ -42,7 +60,7 @@
   color: rgb(241, 64, 241);
 }
 .contactIcon:hover{
-  color: rgb(124, 124, 124);
+  color: rgb(0, 0, 0);
 }
 .invoiceIcon:hover{
   color: gold;
