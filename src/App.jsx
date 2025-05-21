@@ -9,6 +9,7 @@ import Contact from './pages/Contact';
 import Invoice from './pages/Invoice';
 import Footer from '../src/components/Footer.jsx';
 import { teamMembers, differences } from './components/AboutArrays.jsx';
+import { designs, process } from './components/AboutArrays.jsx';
 import './css/App.css';
 
 export default function App(){
@@ -22,8 +23,8 @@ export default function App(){
                 <div className='bodyContent'>
                     <Routes>
                         <Route path="/" element={<Home/>} />
-                        <Route path="/about" element={<About teamMembers={teamMembers} differences={differences}/>} />
-                        <Route path="/design" element={<Design/>}/>
+                        <Route path="/about" element={<About teamMembers={teamMembers} differences={differences}/>}/>
+                        <Route path="/design" element={<Design designs={designs} process={process}/>}/>
                         <Route path="/socials" element={<Socials/>}/>
                         <Route path="/contact" element={<Contact/>}/>
                         <Route path="/invoice" element={<Invoice/>}/>

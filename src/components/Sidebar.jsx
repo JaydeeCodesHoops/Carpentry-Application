@@ -29,7 +29,7 @@ export default function Sidebar() {
                     <NavLink to="/socials" className="nav-link">
                         <div className="link-content">
                             <FaShareAlt className="socialsIcon" />
-                            <span className="link-text">Social </span>
+                            <span className="link-text">Social Platforms</span>
                         </div>
                     </NavLink>
                     <NavLink to="/contact" className="nav-link">

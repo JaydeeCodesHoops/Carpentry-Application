@@ -49,12 +49,17 @@ export default function About({ teamMembers, differences }) {
                             ))}
                         </div>
                         <div className="makesUsDifferent">
-                            <h1>What Makes Us Different</h1>
-                            {differences.map((dif, index) => {
-                                <div key={index} className="differenceItem">
-                                    <p style={{ color: "white", fontSize: "20px" }}>{dif.id}</p>
-                                </div>
-                            })}
+                            <div className="makesUsDifferentHeading">
+                                <h1>What Makes Us Different</h1>
+                            </div>
+                            <div className="makesUsDifferentItems">
+                                {differences.map((diff, index) => (
+                                    <div key={index} className="differenceItem">
+                                        <p id="id">{diff.id}</p>
+                                        <p>{diff.name}</p>
+                                    </div>
+                                ))}
+                            </div>
                         </div>
                     </div>
                 </div>

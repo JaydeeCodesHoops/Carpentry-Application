@@ -1,16 +1,16 @@
-.homeAboutContent{
+.homeAboutContent {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     background-image: url("../../public/images/woodWalpaper1.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.overlay{
+.overlay {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,9 +20,9 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.aboutHeaderSection{
+.aboutHeaderSection {
     width: 100%;
-    height: 250px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,18 +31,24 @@
     background-color: rgba(0, 0, 0, 0.562);
 }
 
-.aboutHeading{
-    flex: 1;
+.aboutHeading {
+    flex: 1.5;
     font-size: 40px;
+    display: flex;
+    text-align: left;
+    margin-left: 50px;
+
 }
 
-.aboutText{
+.aboutText {
     flex: 1;
     font-size: 25px;
     color: white;
+    display: flex;
+    text-align: left;
 }
 
-.aboutBody{
+.aboutBody {
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -54,7 +60,7 @@
     color: white;
 }
 
-.missionAndValues{
+.missionAndValues {
     width: 80%;
     display: flex;
     align-items: center;
@@ -62,7 +68,7 @@
     gap: 100px;
 }
 
-.mission{
+.mission {
     flex: 1;
     flex-direction: column;
     align-items: center;
@@ -74,7 +80,7 @@
     min-height: 200px;
 }
 
-.values{
+.values {
     flex: 1;
     flex-direction: column;
     align-items: center;
@@ -86,40 +92,39 @@
     min-height: 200px;
 }
 
-#value{
-    color:rgb(167, 69, 0);
+#value {
+    color: rgb(167, 69, 0);
 }
 
-.team{
+.team {
     width: 100%;
     background-color: #1e1e2f;
-    padding: 50px;
 }
 
-.teamHeading h1{
-    color:#61dafb;
+.teamHeading h1 {
+    color: #61dafb;
 }
 
-.cards{
+.cards {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
     margin-bottom: 100px;
 }
 
-.teamHeading{
+.teamHeading {
     color: white;
     margin-bottom: 80px;
 }
 
-#image{
+#image {
     width: 200px;
     height: 200px;
 }
 
-.individualCard{
+.individualCard {
     width: 250px;
     padding: 20px;
     display: flex;
@@ -130,15 +135,16 @@
     color: white;
 }
 
-.individualCard p{
+.individualCard p {
     color: gray;
 }
 
-.missionBody h1, .valuesBody h1{
+.missionBody h1,
+.valuesBody h1 {
     color: saddlebrown
 }
 
-.moreAbout{
+.moreAbout {
     flex: 1;
     flex-direction: column;
     align-items: center;
@@ -150,25 +156,41 @@
     min-height: 200px;
 }
 
-.makesUsDifferent{
+.makesUsDifferent {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #ffffff;
+    gap: 50px;
+}
+
+.makesUsDifferentHeading {
+    color: #1e1e2f;
+}
+
+.differenceItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #1e1e2f;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 15px;
 }
 
-.makesUsDifferent h1{
-    color: #61dafb;
-}
-
-.makesUsDifferent p{
+#id {
+    font-size: 20px;
     color: gray;
 }
 
-.differenceItem{
-    background-color: #61dafb;
-    width: 200px;
-    height: 200px;
+.differenceItem p {
+    color: #61dafb;
+}
+
+.makesUsDifferentItems {
+    display: flex;
+    gap: 100px;
 }
