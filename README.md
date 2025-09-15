@@ -6,9 +6,7 @@ This is a web application built for my personal business that i do on the side w
 ## 🚀 Features
 ### Frontend
 - ✅ Straight access
-- 👌 Quick and easy navigation through pages
-- 😃 Easy responsiveness for mobile and computer devices
-  
+- 👌 Quick and easy navigation through pages  
 
 ### Backend
 - 😢None at the moment
@@ -18,3 +16,4 @@ This is a web application built for my personal business that i do on the side w
 - Install [Git](https://git-scm.com/)
 - Install [Node.js](https://nodejs.org/)
 - Install [Visual Studio Code] / for the Frontend
+
