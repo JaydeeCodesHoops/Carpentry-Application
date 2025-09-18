@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import { FaHammer } from 'react-icons/fa';
-import Jays from '../../public/images/JaysWoodworksLogo.png';
+import Header from '../components/Header.jsx';
 import '../css/Home.css';
 
 export default function Home() {
@@ -96,10 +96,8 @@ export default function Home() {
     return (
         <>
             <div className="homeContent">
-                <div className="logoImage">
-                    <img className="image" src={Jays} />
-                    <h2 className="companyName">Jay's Woodworks</h2>
-                    <hr style={{ height: "1px", width: "80vw", border: "none", backgroundColor: "gray" }} />
+                <div className="headerComponent">
+                    <Header/>
                 </div>
                 <div className="carouselOutsideDiv">
                     <div className="carousel">

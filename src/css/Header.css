@@ -1,0 +1,45 @@
+.headerDiv{
+    width: 100%;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
+
+.img-Name{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.navBtns{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.image{
+    width: 130px;
+    height: 130px;
+    transition: transform 0.3s ease;
+}
+
+.image:hover{
+    transform: scale(1.07); /* Grows image by 7% */
+}
+
+.companyName{
+    font-size: 40px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+}
+
+.companyName:hover{
+    color: rgb(43, 139, 163);
+} 

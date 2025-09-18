@@ -4,7 +4,11 @@
     width: 100vw;
 }
 
-.logoImage{
+.headerComponent{
+    display: flex;
+}
+
+/* .logoImage{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -20,7 +24,7 @@
 }
 
 .image:hover{
-    transform: scale(1.07); /* Grows image by 7% */
+    transform: scale(1.07); 
 }
 
 .companyName{
@@ -31,7 +35,7 @@
 
 .companyName:hover{
     color: rgb(43, 139, 163);
-}
+} */
 
 .carouselOutsideDiv{
     display: flex;

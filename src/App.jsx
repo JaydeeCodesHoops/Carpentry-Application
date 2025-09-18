@@ -1,6 +1,6 @@
 import React from 'react';
 import {Routes, Route} from 'react-router-dom';
-import Sidebar from './components/Sidebar.jsx';
+// import Sidebar from './components/Sidebar.jsx';
 import Home from './pages/Home';
 import About from './pages/About';
 import Design from './pages/Design';
@@ -17,9 +17,9 @@ export default function App(){
         <>
         <div className="main">
             <div className="Page">
-                <div className="sidebar">
+                {/* <div className="sidebar">
                     <Sidebar/>
-                </div>
+                </div> */}
                 <div className='bodyContent'>
                     <Routes>
                         <Route path="/" element={<Home/>} />
