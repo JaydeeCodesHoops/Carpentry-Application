@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import { FaHammer } from 'react-icons/fa';
-import Header from '../components/Header.jsx';
 import '../css/Home.css';
 
 export default function Home() {
@@ -96,9 +95,6 @@ export default function Home() {
     return (
         <>
             <div className="homeContent">
-                <div className="headerComponent">
-                    <Header/>
-                </div>
                 <div className="carouselOutsideDiv">
                     <div className="carousel">
                         {currentPositions.map(({ position, index }) => (

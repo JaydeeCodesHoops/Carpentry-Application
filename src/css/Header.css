@@ -19,8 +19,8 @@
 .navBtns{
     flex: 2;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: flex-end;
     gap: 30px;
 }
 
